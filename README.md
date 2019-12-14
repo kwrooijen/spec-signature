@@ -1,3 +1,5 @@
+[![Clojars Project](https://img.shields.io/clojars/v/spec-signature.svg)](https://clojars.org/spec-signature)
+
 # spec-signature
 
 This library implements the `sdef` macro, which aims to be a simpler form for
