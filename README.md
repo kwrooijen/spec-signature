@@ -13,8 +13,8 @@ Comparison:
 ;; clojure.spec's version
 
 (fdef create-person
-  :args (cat (keyword "0") :person/name
-             (keyword "1") :person/age)
+  :args (cat :0 :person/name
+             :1 :person/age)
   :ret :app/person)
 (defn create-person [name age]
   {:person/name name
